@@ -145,6 +145,13 @@ setuptools = "pkg_resources"
 [tool.vendoring.license.fallback-urls]
 distlib = "https://bitbucket.org/pypa/distlib/raw/master/LICENSE.txt"
 
+[tool.codespell]
+ignore-regex = "\\[nt]" # Do not count escaped newlines or tabs as part of a word
+# ignore-words-list = ""
+quiet-level = 0 # Display all warnings
+check-filenames = ""
+check-hidden = ""
+
 ######################################################################################
 # ruff
 #
